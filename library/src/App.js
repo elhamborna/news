@@ -7,6 +7,7 @@ import ThemeContextProvider from "./contexts/ThemeContext";
 function App() {
   return (
     <div className="App">
+      <h1> کتابخانه من</h1>
       <ThemeContextProvider>
         <LoginContextProvider>
           <Navbar />
